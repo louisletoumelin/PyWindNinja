@@ -1,0 +1,5 @@
+src/depreciated/
+Data/Inputs/*.tif
+Data/Inputs/*.pkl
+Data/Outputs/*
+Data/tmp/*
