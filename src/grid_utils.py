@@ -6,8 +6,8 @@ os.environ['USE_PATH_FOR_GDAL_PYTHON'] = 'YES'
 from osgeo import gdal
 import concurrent.futures
 
-from WindNinja_learning.utils_wind_ninja import timer_decorator
-from WindNinja_learning.config import config
+from src.utils_wind_ninja import timer_decorator
+from src.config import config
 
 
 def project_coordinates(lon=None, lat=None, crs_in=4326, crs_out=2154):

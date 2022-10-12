@@ -6,8 +6,8 @@ import shutil
 from dataclasses import dataclass
 from typing import Union
 
-from WindNinja_learning.utils_wind_ninja import lower_station_name, detect_existing_case, print_date
-from WindNinja_learning.utils_wind_ninja import print_current_prediction
+from src.utils_wind_ninja import lower_station_name, detect_existing_case, print_date
+from src.utils_wind_ninja import print_current_prediction
 
 
 def delete_temporary_files(prm):

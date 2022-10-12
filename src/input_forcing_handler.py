@@ -3,7 +3,7 @@ import pandas as pd
 
 from abc import ABC, abstractmethod
 
-from WindNinja_learning.grid_utils import project_coordinates
+from src.grid_utils import project_coordinates
 
 
 class NWPDataHandler(ABC):

@@ -8,9 +8,9 @@ import pickle
 import json
 from pathlib import Path
 
-from WindNinja_learning.wind_ninja_processing import extract_nearest_neighbor
-from WindNinja_learning.utils_wind_ninja import timer_decorator
-from WindNinja_learning.config import config
+from src.wind_ninja_processing import extract_nearest_neighbor
+from src.utils_wind_ninja import timer_decorator
+from src.config import config
 
 
 def read_nc_output(filename):

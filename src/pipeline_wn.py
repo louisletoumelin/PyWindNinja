@@ -2,12 +2,12 @@ import matplotlib.pyplot as plt
 
 from time import time as t
 
-from WindNinja_learning.config import config
-from WindNinja_learning.input_forcing_handler import PKLHandler
-from WindNinja_learning.grid_utils import crop_and_save_dem
-from WindNinja_learning.wind_ninja_processing import windninja2nc
-from WindNinja_learning.temporary_data import TemporaryData
-from WindNinja_learning.result import ResultHandler
+from src.config import config
+from src.input_forcing_handler import PKLHandler
+from src.grid_utils import crop_and_save_dem
+from src.wind_ninja_processing import windninja2nc
+from src.temporary_data import TemporaryData
+from src.result import ResultHandler
 
 """
 momentum:

@@ -4,9 +4,9 @@ from osgeo import gdal
 import os
 import shutil
 
-from WindNinja_learning.grid_utils import find_nearest_neighbor_in_grid
-from WindNinja_learning.utils_wind_ninja import detect_existing_case, timer_decorator
-from WindNinja_learning.config import config
+from src.grid_utils import find_nearest_neighbor_in_grid
+from src.utils_wind_ninja import detect_existing_case, timer_decorator
+from src.config import config
 
 
 def launch_wind_ninja_experiment(index, tmp_data, config):

@@ -1,4 +1,4 @@
-from utils_config import select_cfg_file, create_begin_end
+from src.utils_config import select_cfg_file, create_begin_end
 
 config = {}
 config["exp_name"] = "test"
