@@ -7,7 +7,7 @@ from osgeo import gdal
 import concurrent.futures
 
 from src.utils_wind_ninja import timer_decorator
-from src.config import config
+from config import config
 
 
 def project_coordinates(lon=None, lat=None, crs_in=4326, crs_out=2154):

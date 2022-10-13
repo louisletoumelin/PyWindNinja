@@ -10,7 +10,7 @@ from pathlib import Path
 
 from src.wind_ninja_processing import extract_nearest_neighbor
 from src.utils_wind_ninja import timer_decorator
-from src.config import config
+from config import config
 
 
 def read_nc_output(filename):
